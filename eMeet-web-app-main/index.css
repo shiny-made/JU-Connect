@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+    background: linear-gradient(-45deg, #c04f2d, #d86691, #c562e4, #3cd8d8);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+button{
+    padding-top: 50px;
+}
+
+#createBtn {
+    background: #ecbe5b;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #16456b;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 36pt;
+    font-family: 'Arvo', serif;
+    overflow: hidden;
+    transition: 0.2s;
+    animation: zoom 5s ease-in-out infinite alternate;
+}
+
+#createBtn:hover {
+    color: #4e0707;
+    background: #6ce0e0;
+    box-shadow: 0 0 10px #f3d421, 0 0 40px #cfcd31, 0 0 80px #e4e707;
+    transition-delay: 0.2s;
+}
+
+#container {
+    padding-top: 20px;
+}
+
+.glow {
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+    color: rgb(155, 7, 7);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d3e985, 0 0 40px #d6e739, 0 0 50px #9ab137, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #30629b, 0 0 40px #584aa5, 0 0 50px #294192, 0 0 60px #4b3e88, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}

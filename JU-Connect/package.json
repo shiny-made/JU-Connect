@@ -1,0 +1,17 @@
+{
+  "name": "ju-econnect-web",
+  "version": "1.0.0",
+  "description": "The main website of JU-eConnect platform. Made using HTML, CSS, JavaScript and Bootstrap",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ritodeep Sikdar",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.0.2"
+  },
+  "devDependencies": {}
+}

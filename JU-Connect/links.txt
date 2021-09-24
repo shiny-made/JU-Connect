@@ -1,0 +1,7 @@
+https://ju-chat-connect.web.app/login
+https://alumni-econnect.web.app/login
+https://ju-econnect-f3e75.web.app/
+https://ju-emeet.herokuapp.com/
+https://ju-community-post.web.app/
+https://health-chat-f5faa.web.app/
+https://ju-voice-connect.vercel.app/
